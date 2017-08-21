@@ -1,0 +1,4 @@
+1. Create a new Angular App and create your modules and controller. Do the following.
+	i) Store first name and last name in two different scope variables.
+	ii) Join them together.
+	iii) Display full name in the HTML page using Handlebars syntax.
