@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html ng-app="BasicsExeapp3">
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js"></script>
+        <script src="app.js"></script>
+</head>
+    <body ng-controller="BasicsExeCtrl3">
+        <div>
+            FirstName: <input type = "text" ng-model = "firstName"></input> <br><br>
+            LastName:  <input type = "text" ng-model = "lastName"></input> <br><br>
+<!--           Your FullName is :  <input type = "text" value = "{{firstName + " " + lastName}}"></input> <br><br>-->
+            FullName is: {{firstName + " " + lastName}}
+        </div>
+   </body>
+</html>
