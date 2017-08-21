@@ -1,1 +1,4 @@
-
+1. Create a new Angular App and create your modules and one controller. Create scope variables inside the controller and do the following.
+	i) Store numbers in the scope variables and add them.
+	ii) Store the result in another scope variable.
+	iii) Display all the three variables in the HTML page using Handlebars syntax.
